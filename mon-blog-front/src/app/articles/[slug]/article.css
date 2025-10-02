@@ -1,0 +1,68 @@
+.article-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.cover {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 24px;
+}
+
+.meta {
+  color: #555;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.content {
+  margin-top: 24px;
+  line-height: 1.6;
+}
+
+.comments {
+  margin-top: 48px;
+}
+
+.comment {
+  border-top: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+.comment strong {
+  margin-right: 8px;
+}
+
+.comment-form {
+  margin-top: 32px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.comment-form button {
+  padding: 12px 24px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #555;
+}
